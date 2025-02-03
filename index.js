@@ -1,3 +1,4 @@
+process.env.NODE_OPTIONS = "--no-deprecation";
 const express = require('express')
 const ytdl = require('@distube/ytdl-core')
 const axios = require('axios')
