@@ -1,0 +1,16 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "latest",
+    "axios": "latest",
+    "express": "latest",
+    "form-data": "4.0.0"
+  }
+}
