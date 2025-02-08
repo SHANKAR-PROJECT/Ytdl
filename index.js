@@ -8,7 +8,7 @@ const app = express();
 const PORT = 7860;
 
 app.use(cors());
-const agent = ytdl.createAgent(JSON.parse(require("./cookie.json")));
+const agent = ytdl.createAgent(require("./cookie.json"));
 
 function formatBytes(bytes) {
   if (bytes === 0) return "0 Bytes";
