@@ -135,7 +135,7 @@ const result = await ytSearch(query);
 const videos = result.videos.map(video => ({
 title: video.title,
 channel: video.author.name,
-views: video.views,
+views: formatNumber(video.views),
 duration: video.timestamp,
 uploaded: video.ago,
 url: video.url,
